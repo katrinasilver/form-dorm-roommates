@@ -6,8 +6,8 @@ A repository for practicing DOM Manipulation with Forms.
 
 1. Clone
 
-1. `npm install`
+2. `npm install`
 
-1. `npm run build`
+3. `npm run build`
 
-1. `npm run dev`
+4. `npm run dev`

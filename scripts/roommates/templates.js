@@ -28,11 +28,11 @@ function newRoommate () {
         <div class="form-row">
           <div class="form-group col-md-3">
             <label for="username">Username</label>
-            <input type="text" class="form-control" id="username" placeholder="Username">
+            <input type="text" class="form-control" id="username" name="username" placeholder="Username">
           </div>
           <div class="form-group col-md-3">
             <label for="avatar">Avatar URL</label>
-            <input type="url" class="form-control" id="avatar" placeholder="Avatar">
+            <input type="url" class="form-control" id="avatar" name="avatar" placeholder="Avatar">
           </div>
           <div class="form-group col-md-6">
             <label for="faction">Faction</label>
@@ -47,20 +47,20 @@ function newRoommate () {
         </div>
         <div class="form-group">
           <label for="street">Address</label>
-          <input type="text" class="form-control" id="street" placeholder="1234 Main St">
+          <input type="text" class="form-control" id="street" name="street" placeholder="1234 Main St">
         </div>
         <div class="form-group">
           <label for="suite">Address 2</label>
-          <input type="text" class="form-control" id="suite" placeholder="Apartment, studio, or floor">
+          <input type="text" class="form-control" id="suite" name="suite" placeholder="Apartment, studio, or floor">
         </div>
         <div class="form-row">
           <div class="form-group col-md-8">
             <label for="city">City</label>
-            <input type="text" class="form-control" id="city" placeholder="City or town">
+            <input type="text" class="form-control" id="city" name="city" placeholder="City or town">
           </div>
           <div class="form-group col-md-4">
             <label for="inputZip">Zip</label>
-            <input type="text" class="form-control" id="inputZip" placeholder="5 or 9 digits">
+            <input type="text" class="form-control" id="inputZip" name="inputZip" placeholder="5 or 9 digits">
           </div>
         </div>
 
