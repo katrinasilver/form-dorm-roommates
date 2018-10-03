@@ -36,7 +36,7 @@ function newRoommate () {
           </div>
           <div class="form-group col-md-6">
             <label for="faction">Faction</label>
-            <select id="faction" class="form-control">
+            <select id="faction" class="form-control name="faction">
               <option selected>- Select Your Faction -</option>
               <option>Hopper Hawks</option>
               <option>Lovelace Lemurs</option>
